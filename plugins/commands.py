@@ -322,14 +322,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗔𝗻𝗶𝗺𝗲 𝗗𝗲𝘀𝘁𝗶𝗻𝗮𝘁𝗶𝗼𝗻! 🎌', url='https://t.me/+bCEHTwvYj7xjYzE1')
             ],[
-            InlineKeyboardButton( '💝 movies ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+            InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗘𝗻𝘁𝗲𝗿𝘁𝗮𝗶𝗻𝗺𝗲𝗻𝘁 𝗛𝘂𝗯! 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/aapna_Movies')
-            ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
+            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 - 𝙲𝚘𝚗𝚗𝚎𝚌𝚝, 𝙰𝚜𝚔 & 𝙶𝚎𝚝 𝙷𝚎𝚕𝚙! 🔹', url='https://t.me/+edh8zsjLgpEzNTFl'),
+            InlineKeyboardButton('🔔 Update Channel - Stay Tuned with the Latest Updates! 🚀', url='https://t.me/Miss_Quinn_Bots')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
