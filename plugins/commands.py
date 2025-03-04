@@ -53,12 +53,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗔𝗻𝗶𝗺𝗲 𝗗𝗲𝘀𝘁𝗶𝗻𝗮𝘁𝗶𝗼𝗻! 🎌', url='https://t.me/+bCEHTwvYj7xjYzE1')
+            InlineKeyboardButton( '🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎌', url='https://t.me/+bCEHTwvYj7xjYzE1')
             ],[
-            InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗘𝗻𝘁𝗲𝗿𝘁𝗮𝗶𝗻𝗺𝗲𝗻𝘁 𝗛𝘂𝗯! 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
+            InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
             ],[
-            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 - 𝙲𝚘𝚗𝚗𝚎𝚌𝚝, 𝙰𝚜𝚔 & 𝙶𝚎𝚝 𝙷𝚎𝚕𝚙! 🔹', url='https://t.me/+edh8zsjLgpEzNTFl'),
-            InlineKeyboardButton('🔔 Update Channel - Stay Tuned with the Latest Updates! 🚀', url='https://t.me/Miss_Quinn_Bots')
+            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 🔹', url='https://t.me/+edh8zsjLgpEzNTFl'),
+            InlineKeyboardButton('🔔 Update Channel 🚀', url='https://t.me/Miss_Quinn_Bots')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -220,7 +220,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗔𝗻𝗶𝗺𝗲 𝗗𝗲𝘀𝘁𝗶𝗻𝗮𝘁𝗶𝗼𝗻! 🎌', url="https://t.me/+bCEHTwvYj7xjYzE1")]
+                         InlineKeyboardButton('🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎌', url="https://t.me/+bCEHTwvYj7xjYzE1")]
                     ]
                 )
             ) 
@@ -322,12 +322,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗔𝗻𝗶𝗺𝗲 𝗗𝗲𝘀𝘁𝗶𝗻𝗮𝘁𝗶𝗼𝗻! 🎌', url='https://t.me/+bCEHTwvYj7xjYzE1')
+            InlineKeyboardButton( '🔥 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎌', url='https://t.me/+bCEHTwvYj7xjYzE1')
             ],[
-            InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 - 𝗬𝗼𝘂𝗿 𝗘𝗻𝘁𝗲𝗿𝘁𝗮𝗶𝗻𝗺𝗲𝗻𝘁 𝗛𝘂𝗯! 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
+            InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
             ],[
-            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 - 𝙲𝚘𝚗𝚗𝚎𝚌𝚝, 𝙰𝚜𝚔 & 𝙶𝚎𝚝 𝙷𝚎𝚕𝚙! 🔹', url='https://t.me/+edh8zsjLgpEzNTFl'),
-            InlineKeyboardButton('🔔 Update Channel - Stay Tuned with the Latest Updates! 🚀', url='https://t.me/Miss_Quinn_Bots')
+            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙🔹', url='https://t.me/+edh8zsjLgpEzNTFl'),
+            InlineKeyboardButton('🔔 Update Channel 🚀', url='https://t.me/Miss_Quinn_Bots')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
