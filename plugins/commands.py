@@ -328,7 +328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton( '🎬 𝗠𝗼𝘃𝗶𝗲 & 𝗪𝗲𝗯 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🍿 ', url='https://t.me/+-PMYxTOIpgI0M2E1')
             ],[
-            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 🔹, url='https://t.me/+e7eGeP3fICtjYmE1'),
+            InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 🔹', url='https://t.me/+e7eGeP3fICtjYmE1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Miss_Quinn_Bots')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
