@@ -22,9 +22,9 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29640476"))
-API_HASH = environ.get("API_HASH", "824d5b93ac8c8fddcf4088a67ecd5222")
-ADMINS = int(environ.get("ADMINS", "6138367360"))
+API_ID = int(environ.get("API_ID", "24335028"))
+API_HASH = environ.get("API_HASH", "b204ec833fb451fb913fc8e683b232d0")
+ADMINS = int(environ.get("ADMINS", "5213073489"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -43,7 +43,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002005121747"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002045377846"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002428113336')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -66,7 +66,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002124914386'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002010220765'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
