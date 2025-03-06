@@ -36,7 +36,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "File_sharing_A_2_Z_Bot") # your bot username without @
-PICS = (environ.get('PICS', 'https://envs.sh/w0G.jpg https://envs.sh/w01.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/2Gp.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
