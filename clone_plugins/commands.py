@@ -48,6 +48,8 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
+            InlineKeyboardButton('🙏𝗝𝗼𝗶𝗻 𝗡𝗼𝘄 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹🙏', url='https://t.me/+Hex8gMXkIf02NTE9')
+            ],[
             InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 🔹', url='https://t.me/+edh8zsjLgpEzNTFl')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
@@ -171,6 +173,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
+            InlineKeyboardButton('🙏𝗝𝗼𝗶𝗻 𝗡𝗼𝘄 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹🙏', url='https://t.me/+Hex8gMXkIf02NTE9')
+            ],[
             InlineKeyboardButton('🔹 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 🔹', url='https://t.me/+edh8zsjLgpEzNTFl')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
