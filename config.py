@@ -77,13 +77,13 @@ class Var(object):
         APP_NAME = str(getenv('APP_NAME'))
     
     else:
-        ON_HEROKU = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-    HAS_SSL=bool(getenv('HAS_SSL',False))
+        ON_HEROKU = True
+    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.app.koyeb.com'
+    HAS_SSL=bool(getenv('HAS_SSL',True))
     if HAS_SSL:
-        URL = "https://file-store-bot-ajay-client.onrender.com"
+        URL = "https://possible-winifred-filmiduniyamix-598c06f4.koyeb.app/"
     else:
-        URL = "https://file-store-bot-ajay-client.onrender.com"
+        URL = "https://possible-winifred-filmiduniyamix-598c06f4.koyeb.app/"
 
 
 
